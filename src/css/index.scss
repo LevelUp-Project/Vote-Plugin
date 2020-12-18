@@ -1,0 +1,39 @@
+
+.LVLUPCONTAINER {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.LVLUPINPUTANSWER {
+	width: 95%;
+}
+.LVLUPINPUT {
+	width: 90%;
+}
+
+.LVLUPREMOVEINPUT {
+	width: 5%;
+	float: right;
+}
+.LVLUPADDINPUT {
+	width: 10%;
+	padding-top: 5px;
+}
+.LVLUPICON {
+	width: 5%;
+	padding-top: 10px;
+}
+
+.LVLUP inputtext {
+    display:inline-block;width:100%;line-height:30px;
+	
+    color: #000;
+	background: #FFF;
+    border: 1px solid #DEDEDE;
+	margin: 10 auto; width: 10 auto;
+	font-size: 25px;
+	&:hover {
+		background: #f2f2f2;
+	};
+}
